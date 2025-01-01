@@ -361,7 +361,209 @@ footer{
 
 
 
-/*  */
+/* Global Responsive Styles */
+@media screen and (max-width: 1024px) {
+    /* Trending Section */
+    .trending-img, .trending-img2 {
+        flex-wrap: wrap;
+    }
+    
+    .trending-img img, .trending-img2 img {
+        width: 200px;
+        height: 300px;
+    }
+    
+    /* Probably Section */
+    .probably {
+        padding: 40px;
+    }
+    
+    .probably-shipping {
+        width: 100%;
+    }
+    
+    .probably-shipping span {
+        margin-right: 400px;
+    }
+
+    /* Footer */
+    .footer-section {
+        padding: 50px;
+        gap: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Navbar - existing styles remain */
+
+    /* Hero Section */
+    .hero-button {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    /* Trending Section */
+    .trending-text {
+        margin-top: 60px;
+        font-size: 18px;
+    }
+
+    .trending-img img, .trending-img2 img {
+        width: 180px;
+        height: 260px;
+    }
+
+    /* Probably Section */
+    .probably {
+        padding: 20px;
+    }
+
+    .probably-shipping p {
+        font-size: 14px;
+    }
+
+    .probably-shipping span {
+        margin-right: 200px;
+    }
+
+    /* Footer */
+    .footer-section {
+        flex-wrap: wrap;
+        padding: 30px;
+        gap: 30px;
+        margin-left: 20px;
+    }
+
+    .footer-input {
+        width: 250px;
+    }
+
+    .footer-text {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Hero Section */
+    .hero-button {
+        width: 250px;
+        font-size: 12px;
+        bottom: -80px;
+    }
+
+    /* Trending Section */
+    .trending {
+        padding: 10px;
+    }
+
+    .trending-text {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .trending-img, .trending-img2 {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .trending-img img, .trending-img2 img {
+        width: 140px;
+        height: 200px;
+    }
+
+    .trending-button {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    /* Probably Section */
+    .probably {
+        padding: 10px;
+    }
+
+    .probably-text {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .probably-shipping {
+        width: 100%;
+    }
+
+    .probably-shipping p {
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .probably-shipping span {
+        margin-right: 100px;
+    }
+
+    /* Footer */
+    .footer-text {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .footer-section {
+        padding: 20px;
+        gap: 20px;
+        margin-left: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-input {
+        width: 200px;
+    }
+
+    .footer-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .footer-end {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        font-size: 16px;
+    }
+
+    .Copyright {
+        font-size: 12px;
+    }
+
+    .footer-social {
+        justify-content: center;
+        font-size: 16px;
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 320px) {
+    .trending-img img, .trending-img2 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .hero-button {
+        width: 200px;
+    }
+
+    .footer-input {
+        width: 180px;
+    }
+
+    .probably-shipping span {
+        margin-right: 50px;
+    }
+}
 
 
 
